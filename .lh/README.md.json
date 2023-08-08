@@ -1,0 +1,26 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1691475085977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1691475163812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     git clone https://github.com/levi-putna/RODES-Framework-Example.git\n     ```\n 3. **Navigate to the Project Directory:** Use the command `cd RODES-Framework-Example` to navigate into the project directory.\n \n-4. **Install Dependencies:** Run `npm install` in your terminal to install the required dependencies.\n+4. **Install Dependencies:** Run `npm install` or `yarn install` in your terminal to install the required dependencies.\n \n 5. **OpenAI Account:** You need to have an OpenAI account to use their API. If you don't have an account, you can create one [here](https://beta.openai.com/signup/).\n \n 6. **Set OpenAI API Key:** Once you have an OpenAI account, retrieve your API key. Save this key in a `.env` file in your project's root directory like this:\n"
+                },
+                {
+                    "date": 1691475280169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n # RODES-Framework-Example\n \n This Node.js script uses the OpenAI API and implements the RODES framework to convert a list of tasks into a weekly schedule. It leverages the 'gpt-3.5-turbo' model to automate task scheduling efficiently.\n \n+This code is part of an article published at www.twistedbrackets.com/riding-the-wave-of-effective-ai-prompt-crafting.\n+\n ## Installation\n \n 1. **Install Node.js:** This script requires Node.js to run. If you don't have Node.js installed on your local system, download and install it from [here](https://nodejs.org/).\n \n"
+                }
+            ],
+            "date": 1691475085977,
+            "name": "Commit-0",
+            "content": "# RODES-Framework-Example\n\nThis Node.js script uses the OpenAI API and implements the RODES framework to convert a list of tasks into a weekly schedule. It leverages the 'gpt-3.5-turbo' model to automate task scheduling efficiently.\n\n## Installation\n\n1. **Install Node.js:** This script requires Node.js to run. If you don't have Node.js installed on your local system, download and install it from [here](https://nodejs.org/).\n\n2. **Clone the Repository:** Clone the RODES-Framework-Example repository from GitHub to your local system using the following command in your terminal or command prompt:\n    ```\n    git clone https://github.com/levi-putna/RODES-Framework-Example.git\n    ```\n3. **Navigate to the Project Directory:** Use the command `cd RODES-Framework-Example` to navigate into the project directory.\n\n4. **Install Dependencies:** Run `npm install` in your terminal to install the required dependencies.\n\n5. **OpenAI Account:** You need to have an OpenAI account to use their API. If you don't have an account, you can create one [here](https://beta.openai.com/signup/).\n\n6. **Set OpenAI API Key:** Once you have an OpenAI account, retrieve your API key. Save this key in a `.env` file in your project's root directory like this:\n    ```\n    OPENAI_API_KEY=your_api_key\n    ```\n   Replace `your_api_key` with your actual OpenAI API key.\n\n## Usage\n\n1. Tasks should be passed as command line arguments when running the script. For best results the tasks should be comma-separated, and each task can optionally include a colon followed by a time allotment in minutes. If no time allotment is given, the task is assumed to take 30 minutes by default. \n    - Example: `node index.js \"task1:60,task2:45,task3\"`.\n2. The script will output a proposed schedule for your tasks based on the AI's best judgement.\n"
+        }
+    ]
+}

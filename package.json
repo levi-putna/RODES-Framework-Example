@@ -1,0 +1,14 @@
+{
+  "name": "RODES-Framework-Example",
+  "version": "1.0.0",
+  "description": "This Node.js script utilizes the OpenAI API and applies the RODES framework to transform a list of tasks into a weekly schedule, leveraging the capabilities of 'gpt-3.5-turbo' to effectively automate task scheduling.",
+  "main": "index.js",
+  "repository": "https://github.com/levi-putna/RODES-Framework-Example.git",
+  "author": "Levi Putna <levi.putna@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
+  }
+}
